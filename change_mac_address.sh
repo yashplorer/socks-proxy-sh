@@ -23,6 +23,7 @@ echo "\nNOTE:this might ask for admin privlatges since we're using sudo"
 echo "NOTE: if this freezes for more than five seconds press ctrl+c"
 echo "press enter to continue"
 read
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
 sudo ifconfig en1 ether $macAddr
 sudo ifconfig en1 Wi-Fi $macAddr
 

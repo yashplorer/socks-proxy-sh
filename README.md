@@ -28,7 +28,7 @@ sh change_mac_address.sh
 ```
 and you will be welcomed by a prompt.
 
-Anyone can use this script. It will simply change your mac address to a randomized one effectively giving you a clean slate new identity on the network. This means if your mac address has been blocked in the past you will be able to browse again! Make sure to turn your wifi off before running this script and re-enable it afterwards. I will likely automate this action in the future but right now it must be done manually.
+Anyone can use this script. It will simply change your mac address to a randomized one effectively giving you a clean slate new identity on the network. This means if your mac address has been blocked in the past you will be able to browse again! Make sure to turn your wifi on before running this script and re-enable it after it shuts it off. I will likely automate this action in the future but right now it must be done manually.
 
 ## credential_generator.sh
 
